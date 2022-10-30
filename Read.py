@@ -8,7 +8,7 @@ reader = SimpleMFRC522()
 try:
         print("Waiting for you to scan an RFID sticker/card")
         id, text = reader.read()
-        print("The texr for this card is:", text.strip())
+        print("The text for this card is:", text.strip())
         
 finally:
         GPIO.cleanup()
