@@ -8,7 +8,7 @@ This RFID Jukebox is a music player that uses an RFID module paired with a Raspb
 - The Raspberry Pi is integrated using Spotify's API and is enabled as a Spotify connect device
 - When the pre-programmed RFID chips are tapped to the "Jukebox," it plays the corresponding songs!
 
-This Jukebox does not require a screen to run; however, a certain file does need to be running when turned on in order to use. Currently, the file is accessed and run through IDE using the connected touchscreen; however, I plan to create a GUI that will run upon starting the machine, and will add a fun effect to using the project! 
+This Jukebox does not require a screen to run; however, a certain file does need to be running when turned on in order to use. Currently, the file is accessed and ran through IDE using the connected touchscreen. However, I plan to create a GUI that will run upon starting the machine, and will add a fun effect to using the project! 
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ Use the female to female dupont wires to connect the RFID module to the Raspberr
 This is where I connected my speakers to the Raspberry Pi. I also will be using the Raspberry Pi headless, so I connected it to my monitor. 
 
 ## Configuring the device
-If this is your first time using your Raspberry Pi, I reccomend following a tutorial to set it up and turn it on. Once you have your Raspberry Pi set up, follow these steps to configure the device for our purposes. 
+If this is your first time using your Raspberry Pi, I recommend following a tutorial to set it up and turn it on. Once you have your Raspberry Pi set up, follow these steps to configure the device for our purposes. 
 
 1. Run the following commands in the terminal to ensure that your device is up to date.
 
